@@ -43,12 +43,13 @@ export default function Index() {
       
       <StatusBar style="auto" />
       <View style={tw`grid gap-4 grid-rows-1 mt-2`}>
-      
-      <Button title={'Senac'} onPress={() => updateLocation(-22.910895031890497, -43.174184716828016)} />
-        <Button title={'Niterói'} onPress={() => updateLocation(-22.907548492409962, -43.12600487607869)} />
-        <Button title={'Saquarema'} onPress={() => updateLocation(-22.93673595462559, -42.492341482231)} />
-        <Button title={'Paraty'} onPress={() => updateLocation(-23.219451256341728, -44.711520893955885)} />
-      </View>
+        <button title={'Cristo Redentor'} onPress={() => updateLocation(-22.916944, -43.203278)}>Cristo Redentor</button>
+        <button title={'Grande Muralha da China'} onPress={() => updateLocation(39.90425, 116.40751)}>Grande Muralha da China</button>
+        <button title={'Petra'} onPress={() => updateLocation(31.049722, 35.216667)}>Petra</button>
+        <button title={'Coliseu'} onPress={() => updateLocation(41.890278, 12.490278)}>Coliseu</button>
+        <button title={'Chichén Itzá'} onPress={() => updateLocation(20.682222, -88.568333)}>Chichén Itzá</button>
+        <button title={'Machu Picchu'} onPress={() => updateLocation(-13.169833, -72.537222)}>Machu Picchu</button>
+        <button title={'Taj Mahal'} onPress={() => updateLocation(27.175000, 78.042222)}>Taj Mahal</button>
      
     </View>
   );
